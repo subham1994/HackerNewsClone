@@ -1,0 +1,4 @@
+1. Create virtual environment (https://packaging.python.org/en/latest/installing/#creating-and-using-virtual-environments).
+2. Install django using pip in the virtual environment (pip install django).
+3. run manage.py file (python manage.py runserver).
+4. Open localhost:8000 in the browser.

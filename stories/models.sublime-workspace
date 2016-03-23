@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"color"
+			],
+			[
+				"BOD",
+				"body"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"border-ri",
+				"border-right-color"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"Di",
+				"div"
+			],
+			[
+				"CE",
+				"center"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h6	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"m",
+				"members_panel"
+			],
+			[
+				"um",
+				"umeeduser"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"R",
+				"RequestContext"
+			],
+			[
+				"u",
+				"umeeduser"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"tr",
+				"tr	Tag"
+			],
+			[
+				"U",
+				"UmeedUsers"
+			],
+			[
+				"o",
+				"objects"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"log",
+				"loggedin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"L",
+				"LoginForm"
+			],
+			[
+				"lo",
+				"loginform"
+			],
+			[
+				"i",
+				"if	If Condition"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"c",
+				"context_instance"
+			],
+			[
+				"htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"aut",
+				"auth"
+			],
+			[
+				"login",
+				"loginform"
+			],
+			[
+				"ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"umeed",
+				"umeeduser"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"ume",
+				"umeeduser"
+			],
+			[
+				"fr",
+				"form"
+			],
+			[
+				"r",
+				"raise"
+			],
+			[
+				"P",
+				"password"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"HTT",
+				"HttpResponseRedirect"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"pa",
+				"password1"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"boots",
+				"bootstrapValidator"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"User",
+				"UserCreationForm"
+			],
+			[
+				"Lo",
+				"loggedin"
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"ren",
+				"render_to_response"
+			],
+			[
+				"get",
+				"get_context_data"
+			],
+			[
+				"He",
+				"HelloTemplate"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"app",
+				"app_context"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"Mi",
+				"MigrateCommand"
+			],
+			[
+				"co",
+				"add_command"
+			],
+			[
+				"M",
+				"Migrate"
+			],
+			[
+				"main",
+				"main_blueprint"
+			],
+			[
+				"dev",
+				"DevelopmentConfig"
+			],
+			[
+				"F",
+				"FLASKY_ADMIN"
+			],
+			[
+				"Flask",
+				"FLASKY_MAIL_SENDER"
+			],
+			[
+				"add",
+				"add_command"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"SQ",
+				"SQLAlchemy"
+			],
+			[
+				"SQL",
+				"SQLAlCHEMY_DATABASE_URI"
+			],
+			[
+				"S",
+				"SQLAlchemy"
+			],
+			[
+				"fl",
+				"flash"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"s",
+				"session"
+			],
+			[
+				"bod",
+				"body	Tag"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"wtf",
+				"wtforms"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 116.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/subham_1994/Desktop/HackerNews/HackerNews/HackerNews/urls.py",
+		"/home/subham_1994/Desktop/HackerNews/HackerNews/HackerNews/settings.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/NavUmeed/settings.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/umeed/models.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/NavUmeed/urls.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/umeed/admin.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/NavUmeed/forms.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/umeed.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/NavUmeed/views.py",
+		"/home/subham_1994/Documents/Codes/TutsPlus Javascript/basics.js",
+		"/home/subham_1994/Desktop/HackerNews/HackerNews/template/index.html",
+		"/home/subham_1994/Downloads/starter-template/index.html",
+		"/home/subham_1994/Downloads/starter-template/js/init.js",
+		"/home/subham_1994/Desktop/HackerNews/HackerNews/material-design-template-master/www/index.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/index1.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/articles.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/base.html",
+		"/home/subham_1994/Downloads/material-design-template-master/www/index.html",
+		"/home/subham_1994/Downloads/material-design-template-master/www/index (copy).html",
+		"/home/subham_1994/Documents/Codes/semantic/index.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/freelancer.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/navbar.css",
+		"/home/subham_1994/Documents/Codes/templates/freelancer/index.html",
+		"/home/subham_1994/Documents/Codes/templates/freelancer/css/freelancer.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/members_panel.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/image_gallery.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/article.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/styles.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/parallex.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/home.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/index.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/assets/css/parallex.css",
+		"/home/subham_1994/Documents/Codes/templates/freelancer/mail/contact_me.php",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/meet_our_members.html",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/js/classie.js",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/assets/css/carousel.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/static/css/carousel.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/register.html",
+		"/home/subham_1994/Documents/Computer Science/theNewBoston/Coding a responsive website/Course Files/04 - Code Chunks/C - carousel.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/settings.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/views.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/assets/css/umeed.css",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/umeed/migrations/0002_umeedusers.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/umeed/migrations/0001_initial.py",
+		"/home/subham_1994/Desktop/NavUmeed/NavUmeed/templates/password_reset_form.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/settings.pyc",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/urls.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/models.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/forms.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/admin.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/views.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/base.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/urls.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/register.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/success.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/home.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/article.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/articles.html",
+		"/home/subham_1994/Desktop/myProject/djangoServer/lib/python2.7/site-packages/django/contrib/auth/forms.py",
+		"/home/subham_1994/Desktop/myProject/djangoServer/lib/python2.7/site-packages/django/forms/forms.py",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/register.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/success.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/assets/js/bootstrapValidator.js",
+		"/home/subham_1994/Desktop/navUmeed/navUmeed/umeed/models.py",
+		"/home/subham_1994/Desktop/navUmeed/navUmeed/navUmeed/settings.py",
+		"/home/subham_1994/Workspace Sublime/index.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/cover.html",
+		"/home/subham_1994/Desktop/index.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/templates/article.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/article/templates/articles.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/logout.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/login.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/loggedin.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/invalid.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/assets/css/bootstrap.min.css",
+		"/home/subham_1994/Desktop/myProject/demoProject/assets/css/cover.css",
+		"/home/subham_1994/Desktop/myProject/demoProject/static/css/carousel.css",
+		"/home/subham_1994/Desktop/myProject/demoProject/static/js/holder.js",
+		"/home/subham_1994/Desktop/myProject/demoProject/templates/jquery.min.js",
+		"/home/subham_1994/Desktop/myProject/demoProject/static/js/ie10-viewport-bug-workaround.js",
+		"/home/subham_1994/Desktop/myProject/demoProject/static/js/ie-emulation-modes-warning.js",
+		"/home/subham_1994/.local/share/Trash/files/Flasky1/templates/base.html",
+		"/home/subham_1994/Desktop/myProject/demoProject/demoProject/urls.pyc",
+		"/home/subham_1994/Desktop/Flasky/app/templates/base.html",
+		"/home/subham_1994/Desktop/Flasky/HelloFlask.py",
+		"/home/subham_1994/Desktop/Flasky/app/main/__init__.py",
+		"/home/subham_1994/Desktop/Flasky/app/main/errors.py",
+		"/home/subham_1994/Desktop/Flasky/app/models.py",
+		"/home/subham_1994/Desktop/Flasky/manage.py",
+		"/home/subham_1994/Desktop/Flasky/app/main/views.py",
+		"/home/subham_1994/Desktop/Flasky/app/__init__.py",
+		"/home/subham_1994/Desktop/Flasky/config.py",
+		"/home/subham_1994/Desktop/srcFlasky/flasky/app/auth/views.py",
+		"/home/subham_1994/Desktop/srcFlasky/flasky/app/models.py",
+		"/home/subham_1994/Desktop/srcFlasky/flasky/app/main/forms.py",
+		"/home/subham_1994/Desktop/Flasky/tests/test.py",
+		"/home/subham_1994/Desktop/Flasky1/HelloFlask.py",
+		"/home/subham_1994/Desktop/Flasky/templates/error404.html",
+		"/home/subham_1994/Desktop/Flasky1/templates/base.html",
+		"/home/subham_1994/Desktop/Flasky/templates/cover.css",
+		"/home/subham_1994/Desktop/Flasky/templates/cover.html",
+		"/home/subham_1994/Desktop/Flasky/templates/user.html",
+		"/home/subham_1994/Desktop/Flasky/Server/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html",
+		"/home/subham_1994/Desktop/Flasky/app/static/bootstrap-3.3.2-dist/js/jquery.js",
+		"/home/subham_1994/Desktop/Flasky/app/static/bootstrap-3.3.2-dist/js/bootstrap.min.js",
+		"/home/subham_1994/Desktop/Flasky/app/static/bootstrap-3.3.2-dist/js/bootstrap.js",
+		"/home/subham_1994/Desktop/Flasky/tests/__init__.py",
+		"/home/subham_1994/Desktop/Flasky/app/email.py",
+		"/home/subham_1994/Desktop/Flasky/app/main/forms.py",
+		"/home/subham_1994/Desktop/Flasky/data.sqlite",
+		"/home/subham_1994/Desktop/Flasky/cover.html",
+		"/home/subham_1994/Desktop/Flasky/cover.css",
+		"/home/subham_1994/Desktop/Flasky/form.html",
+		"/home/subham_1994/Documents/Computer Science/Lynda.com/Python 3 Essential Training/Exercise Files/Ex_Files_Python_3_EssT/Exercise Files/19 Projects/lib/bwDB.py",
+		"/home/subham_1994/Documents/Computer Science/Lynda.com/Python 3 Essential Training/Exercise Files/Ex_Files_Python_3_EssT/Exercise Files/19 Projects/lib/bwCGI.py",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_wtf/form.py",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_wtf/recaptcha/__init__.py",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_wtf/recaptcha/fields.py",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_wtf/recaptcha/validators.py",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/wtf.html",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/fixes.html",
+		"/home/subham_1994/Desktop/Flasky/WebServer/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/google.html",
+		"/home/subham_1994/Documents/Computer Science/theNewBoston/Coding a responsive website/Course Files/02 - Starter Assets/includes/css/styles.css",
+		"/home/subham_1994/Desktop/Flasky/templates/myCSS/style.css",
+		"/home/subham_1994/Documents/Computer Science/theNewBoston/Coding a responsive website/Code a Responsive Website with Bootstrap 3 - [Lecture 9] Coding the Carousel[00].mp4",
+		"/home/subham_1994/Documents/Computer Science/theNewBoston/Coding a responsive website/Course Files/04 - Code Chunks/B - navbar.html",
+		"/home/subham_1994/Workspace Sublime/Hello_world.py"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"LOGOUT",
+			";\"><",
+			"rubberBand",
+			"10px",
+			"%}\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "models.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

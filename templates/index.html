@@ -1,0 +1,70 @@
+{% load staticfiles %}
+{% load url from future %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title>HACKERNEWS</title>
+
+      <!-- CSS  -->
+
+      <link href="{% static 'assets/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="{% static 'assets/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+
+
+  <body>
+      <div class="navbar-fixed">
+        <nav class="indigo accent-2" role="navigation">
+            <div class="nav-wrapper container teal-text text-darken-4">
+                <a id="logo-container" {% if user.is_authenticated %}href="/"{% else %}href="/login/"{% endif %} class="brand-logo">
+                  HACKERNEWS
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    {% if user.is_authenticated %}
+                      <li><a href="#">{{user.get_full_name | upper}}</a></li>
+                      <li><a href="{% url 'logout' %}" class="menu-top">LOGOUT</a></li>
+                    {% else %}
+                      <li><a href="{% url 'login' %}" class="menu-top">LOGIN</a></li>
+                    {% endif %}
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">MY ACCOUNT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </nav>
+      </div>
+
+
+      <div class="container" id="content-area">
+          <div class="section">
+                  {% block header %}{% endblock %}
+                  {% block page_content %}{% endblock %}
+          </div>
+      </div>
+
+    {% block footer %}
+      <footer class="page-footer indigo accent-4">
+          <div class="container">
+              <center class="white-text">BUILT WITH <i class="tiny mdi-action-favorite pink-text"></i> BY SUBHAM GAURAV</center>
+          <div class="footer-copyright indigo accent-4">
+              <div class="container">
+                  <center class="white-text">&copy HACKERNEWS CLONE, 2015-2016</center>
+              </div>
+          </div>
+      </footer>
+    {% endblock %}
+
+
+    <!--  Scripts-->
+    <script src="{% static 'assets/js/jquery-1.11.0.js' %}"></script>
+    <script src="{% static 'assets/js/materialize.js' %}"></script>
+    <script src="{% static 'assets/js/init.js' %}"></script>
+    <script src="{% static 'assets/js/like.js' %}"></script>
+
+  </body>
+</html>

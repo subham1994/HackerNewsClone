@@ -1,0 +1,60 @@
+{% extends 'index.html' %}
+{% load story_extras %}
+{% load url from future %}
+
+
+{% block header %}
+	<div class="row">
+	  	<div class="col s6 l4"><h5 style="color:#546e7a"><b><i class="mdi-action-description"></i> LATEST STORIES</b></h5></div>
+	  	<div class="col s6 l1 offset-l7">
+	    	<a class="btn-floating btn-large waves-effect waves-light indigo accent-2 tooltipped" data-position="right" data-delay="50" data-tooltip="submit a new story">
+	    		<i class="mdi-content-add"></i>
+	    	</a>
+	  	</div>
+	</div>
+{% endblock %}
+
+
+{% block page_content %}
+	{% for story in stories %}
+		<div class="row">
+			<div class="col l3 s12">
+				<div class="card">
+		        	<div class="card-content">
+		        		<center><i class="small mdi-action-account-circle" style="color:#455a64;"></i></center> 
+		        		<b style="color:#455a64;"><center>{{story.moderator.get_full_name}}</center></b>
+		        		<center style="color:#455a64;"><i class="tiny mdi-social-people"></i> 37 Followers</center>
+		        		<hr style="color:#536dfe;">
+		        		<center><a class="waves-effect waves-light indigo accent-2 btn"><i class="mdi-social-person-add"></i> follow</a></center>
+		        	</div>
+		        </div>
+			</div>
+			<div class="col l9 s12">
+				<div class="card">
+		        	<div class="card-content">
+		        	    <span><a href="{{story.url}}" style="color:#455a64;"><h6><b>{{story.title}}</b></h6></a></span>
+		        	    <h6>{{story.domain}}</h6>
+		        	</div>
+		        	<div class="card-action">
+			        	{% if user.is_authenticated and story not in liked_stories %}
+			        		<a href="{% url 'like' %}" id="like-{{ story.id }}-{{story.points}}" class="btn indigo accent-2" style="color:#fff;">
+			        			<i class="tiny mdi-action-thumb-up" id="points-{{ story.id }}"> {{story.points}}</i>
+			        		</a>
+			        	{% else %}
+			        		{% if user.is_authenticated and story in liked_stories%}
+			        			<a href="{% url 'like' %}" class="btn waves-effect indigo lighten-5 disabled tooltipped" data-position="bottom" data-delay="50" data-tooltip="you have voted this story" style="color:#536dfe;">
+			        				<i class="tiny mdi-action-thumb-up"> {{story.points}}</i>
+			        			</a>
+			        		{% else %}
+			        			<a href="{% url 'like' %}" class="btn waves-effect indigo lighten-5 disabled tooltipped" data-position="bottom" data-delay="50" data-tooltip="please login to like the story" style="color:#536dfe;">
+			        				<i class="tiny mdi-action-thumb-up"> {{ story.points }}</i>
+			        			</a>
+			        		{% endif %}
+			        	{% endif %}
+			       		<i class="tiny mdi-device-access-alarm" style="color:#455a64;">  <b>{{ story.created_at | format_age }}</b></i>
+		        	</div>
+		        </div>
+	        </div>
+		</div>	
+	{% endfor %}
+{% endblock %}

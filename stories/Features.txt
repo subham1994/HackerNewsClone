@@ -1,0 +1,16 @@
+open localhost:8000 in the browser.
+
+HackerNews Features:
+	- A very basic clone of Ycombinator's Hacker News website.
+	- Users can login to the website and post stories.
+	- Authenticated users can cast their vote on different stories.
+	- Anonymous users can only view the stories.
+	- votes are registered via AJAX.
+	- Frameworks Used -> Django and Materialize
+
+
+URLs:
+	- localhost:8000
+	- localhost:8000/login
+	- localhost:8000/logout
+	- localhost:8000/admin
